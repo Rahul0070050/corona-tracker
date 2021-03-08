@@ -1,0 +1,4 @@
+node_modules/
+build/
+API.
+package-lock.json
