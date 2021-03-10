@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import Table from './components/table/Table';
 import Topbar from './components/Topbar/Topbar';
@@ -10,7 +10,7 @@ function App() {
     <main>
       <Navbar />
       <Topbar />
-      <Table />
+      {/* <Table /> */}
     </main>
   );
 }
@@ -18,5 +18,3 @@ function App() {
 export default App;
 
 
-
-{/* <img src="https://i.gifer.com/Z5ea.gif" alt="" /> */ }

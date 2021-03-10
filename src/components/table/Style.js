@@ -1,6 +1,9 @@
 import { makeStyles } from '@material-ui/core';
 
 export const Style = makeStyles({
+    dataDiv: {
+        textAlign: 'center'
+    },
     contaoner: {
         padding: '0px 5rem'
     },

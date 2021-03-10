@@ -25,7 +25,7 @@ export const Style = makeStyles({
         padding: '0 4rem',
         "& article": {
             margin: '1rem 0',
-            padding: '10px 15px',
+            padding: '16px 15px',
             boxShadow: 'rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px',
         }
     },

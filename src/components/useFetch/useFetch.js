@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 const useFetch = (url) => {
     const [data, setData] = useState({});
-    const [loading, setLoding] = useState(false);
+    const [loading, setLoding] = useState(true);
     useEffect(() => {
-        setLoding(true)
         fetch(url)
             .then(response => {
                 if (response.ok) return response.json()
@@ -12,7 +11,7 @@ const useFetch = (url) => {
                 setData(data)
                 setLoding(false)
             })
-    }, [])
+    }, [url])
 
     return [loading, data]
 }

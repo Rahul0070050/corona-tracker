@@ -7,12 +7,16 @@ import useFetch from '../components/useFetch/useFetch';
 const AppContext = createContext()
 
 const AppProvider = ({ children }) => {
+    const [fetchData, setFetchData] = useState([])
     const [loading, data] = useFetch(API);
+    if (!loading) {
+        setFetchData(data);
+    }
 
 
     const value = {
         loading,
-        data
+        fetchData
     }
 
     return <AppContext.Provider value={value} >
