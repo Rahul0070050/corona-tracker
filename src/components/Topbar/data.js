@@ -1,10 +1,12 @@
-import React from 'react';
-import { useGlobalContext } from '../../context/Context';
+import React, { useState } from 'react';
+import { API } from '../ALL_DATA/ALL_DATA';
+import useFetch from '../useFetch/useFetch';
 import { Style } from './Style';
 
 const Data = () => {
     const Clasess = Style()
-    const { loading, fetchData } = useGlobalContext()
+
+    const [loading, data] = useFetch(API);
     const {
         activeCases,
         activeCasesNew,
@@ -13,7 +15,9 @@ const Data = () => {
         previousDayTests,
         recovered,
         recoveredNew,
-        totalCases } = fetchData;
+        totalCases } = data;
+
+
 
     return (
         <>

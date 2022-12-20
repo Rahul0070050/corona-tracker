@@ -1,20 +1,20 @@
-import React, { memo, useCallback, useEffect, useState } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import { coronaNavbarImage } from '../ALL_DATA/ALL_DATA';
 import { Style } from './style';
-import { useGlobalContext } from '../../context/Context';
 
 function Navbar() {
-    const { } = useGlobalContext()
     const Clasess = Style();
     const [time, setTime] = useState(new Date().toLocaleString())
     useEffect(() => {
+        console.log(2);
         const updateTime = setInterval(() => {
+            console.log(3);
             setTime(new Date().toLocaleString())
             return () => {
                 clearInterval(updateTime)
             }
-        })
-    })
+        },1000)
+    },[])
     return (
         <nav className={Clasess.navbar} >
             <div>

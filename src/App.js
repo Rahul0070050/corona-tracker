@@ -10,7 +10,7 @@ function App() {
     <main>
       <Navbar />
       <Topbar />
-      {/* <Table /> */}
+      <Table />
     </main>
   );
 }
