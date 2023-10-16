@@ -11,7 +11,7 @@ A web application that provides up-to-date COVID-19 statistics for India, includ
 
 ## Usage
 
-Visit the website [here](https://your-website-url) to access COVID-19 statistics for India. The website is updated daily with the latest information.
+Visit the website [here](https://652cd0fbdafbc144e3c11fc0--c19-tracker-c9560c.netlify.app/) to access COVID-19 statistics for India. The website is updated daily with the latest information.
 
 ## Contributing
 
