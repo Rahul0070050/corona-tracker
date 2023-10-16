@@ -1,8 +1,22 @@
-# React + Vite
+# COVID-19 India Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that provides up-to-date COVID-19 statistics for India, including state-wise data, recoveries, and deaths.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View total cases, active cases, recoveries, and deaths for India.
+- Check detailed statistics for each state.
+- Responsive design for mobile and desktop.
+- Automatic daily updates.
+
+## Usage
+
+Visit the website [here](https://your-website-url) to access COVID-19 statistics for India. The website is updated daily with the latest information.
+
+## Contributing
+
+Feel free to contribute to the project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
